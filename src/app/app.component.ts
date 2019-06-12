@@ -9,7 +9,6 @@ export class AppComponent {
   res :any
   display = ""
   title = 'calculator';
-  flag = 0
   insertChar(num){
    this.display = this.display + num;
   }

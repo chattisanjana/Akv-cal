@@ -1,0 +1,7 @@
+<input (keydown.enter)="onKeydown($event)">
+onKeydown(event) {
+  console.log(event);
+}
+
+
+onfocus="this.value=''"
